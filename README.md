@@ -4,12 +4,44 @@ A comprehensive collection of advanced statistical analysis and machine learning
 
 ## Repository Overview
 
-This repository contains two major projects that showcase different aspects of statistical analysis and machine learning:
+This repository contains three major projects that showcase different aspects of statistical analysis and machine learning:
 
-1. **Business Statistics Assignment** (`bs-statistic/`) - Customer segmentation and behavioral analysis
-2. **Machine Learning Basics** (`ml-basics/`) - Movie revenue prediction using pre-production features
+1. **Statistics Course** (`statistic-course/`) - ITMO University statistics coursework with 4 homeworks
+2. **Business Statistics Assignment** (`bs-statistic/`) - Customer segmentation and behavioral analysis
+3. **Machine Learning Basics** (`ml-basics/`) - Movie revenue prediction using pre-production features
 
 ## Projects
+
+### 📚 Statistics Course
+
+**Location**: `statistic-course/`  
+**Focus**: ITMO University statistics coursework covering mathematical statistics fundamentals
+
+#### Key Features:
+- **4 Homeworks**: Comprehensive statistical analysis exercises
+- **Mathematical Statistics**: Introduction to statistical estimates and characteristics
+- **Data Analysis**: Descriptive statistics, correlation analysis, anomaly detection
+- **Visualization**: Statistical plots and charts using matplotlib and seaborn
+- **Real-world Datasets**: Anime dataset with 10,486 records for practical analysis
+
+#### Technologies Used:
+- **Statistical Analysis**: Descriptive statistics, quartiles, correlation analysis
+- **Data Processing**: pandas, numpy
+- **Visualization**: matplotlib, seaborn
+- **Development Environment**: Jupyter Notebooks
+
+#### Coursework Structure:
+- **Homework 1**: Statistical characteristics and estimations (25 points max)
+- **Homework 2**: [To be added]
+- **Homework 3**: [To be added]
+- **Homework 4**: [To be added]
+
+#### Dataset:
+- **Anime Dataset**: Comprehensive anime database
+- **Features**: ID, name, genre, type, episodes, rating, members
+- **Focus**: Statistical analysis of entertainment industry data
+
+---
 
 ### 📊 Business Statistics Assignment
 
