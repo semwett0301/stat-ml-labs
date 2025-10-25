@@ -56,6 +56,39 @@ The course consists of **4 homeworks**, each containing a set of exercises that 
 - **Computation**: numpy, pandas, scipy.stats
 - **Visualization**: matplotlib, seaborn
 
+## 🧪 Homework 3: Hypothesis Testing
+
+**File**: `math_stat_3.ipynb`  
+**Topics**: Statistical hypothesis testing, z-tests, t-tests, and proportion tests
+
+### Outline
+This homework covers fundamental hypothesis testing concepts including:
+- **Z-tests**: Testing population means with known variance
+- **T-tests**: Testing population means with unknown variance (one-sample and two-sample)
+- **Proportion tests**: Testing population proportions using normal approximation
+- **Statistical power analysis**: Calculating power and Type II error rates
+- **Critical value calculations**: Determining rejection regions and critical sample sizes
+
+### Key Statistical Concepts Covered
+- **One-tailed vs Two-tailed tests**: Understanding directional vs non-directional hypotheses
+- **P-value calculations**: Computing probabilities under null hypothesis
+- **Effect size and power**: Analyzing test sensitivity and sample size requirements
+- **Independent samples t-test**: Comparing means between two groups
+- **Paired samples**: Analyzing differences within the same subjects
+
+### Problem Types
+1. **Z-test problems**: Population mean testing with known variance
+2. **One-sample t-tests**: Population mean testing with unknown variance
+3. **Two-sample t-tests**: Comparing means between independent groups
+4. **Proportion tests**: Testing population proportions (e.g., success rates)
+5. **Power analysis**: Calculating statistical power and required sample sizes
+6. **Critical value determination**: Finding rejection thresholds
+
+### Technologies Used
+- **Statistical Computing**: scipy.stats (norm, t, binom distributions)
+- **Numerical Analysis**: numpy for mathematical operations
+- **Visualization**: matplotlib for plotting distributions and test statistics
+- **Statistical Functions**: Built-in functions for CDF, PDF, and inverse CDF calculations
+
 ## 🔭 Future Homeworks
-- **Homework 3**: [To be added]  
 - **Homework 4**: [To be added]
