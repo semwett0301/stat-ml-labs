@@ -90,5 +90,53 @@ This homework covers fundamental hypothesis testing concepts including:
 - **Visualization**: matplotlib for plotting distributions and test statistics
 - **Statistical Functions**: Built-in functions for CDF, PDF, and inverse CDF calculations
 
-## 🔭 Future Homeworks
-- **Homework 4**: [To be added]
+## 📊 Homework 4: Non-Parametric Tests and Bootstrap Methods
+
+**File**: `math_stat_4.ipynb`  
+**Topics**: Non-parametric statistical tests, normality testing, bootstrapping, and rank-based tests
+
+### Outline
+This homework explores non-parametric statistical methods that make fewer assumptions about data distribution:
+- **Normality testing**: Q-Q plots, Kolmogorov-Smirnov test, Shapiro-Wilk test
+- **Goodness-of-fit tests**: Checking if data follows specific distributions
+- **Non-parametric tests**: Sign test, Wilcoxon signed-rank test, Mann-Whitney U test
+- **Bootstrap resampling**: Estimating confidence intervals for medians, means, and percentiles
+- **Robust statistics**: Handling outliers and non-normal data
+
+### Key Statistical Concepts Covered
+- **Q-Q plots**: Visual assessment of distribution conformity
+- **Kolmogorov-Smirnov test**: Testing if sample data follows a specific distribution
+- **Shapiro-Wilk test**: Normality testing for smaller samples
+- **Two-sample tests**: Kolmogorov-Smirnov test for comparing two distributions
+- **Sign test**: Non-parametric test for median differences
+- **Wilcoxon signed-rank test**: Paired samples comparison without normality assumption
+- **Mann-Whitney U test**: Comparing two independent groups using ranks
+- **Bootstrap methods**: Resampling techniques for confidence interval estimation
+
+### Problem Types
+1. **Distribution generation and testing**: Creating samples and testing for normality
+2. **Salary data analysis**: Normality testing on real-world employee data
+3. **Median hypothesis testing**: Testing if sample median equals hypothesized value
+4. **Paired data analysis**: Testing therapy effectiveness (anorexia dataset)
+5. **Independent groups comparison**: Price changes in real estate (Seattle dataset)
+6. **Treatment effectiveness**: Drug vs placebo comparison (methylphenidate)
+7. **Bootstrap confidence intervals**: Estimating CI for means, medians, and percentiles with outliers
+
+### Real-World Applications
+- **Medical research**: Analyzing therapy effectiveness and treatment comparisons
+- **Economics**: Studying price changes and market data
+- **Salary analysis**: Understanding income distributions in organizations
+- **Clinical trials**: Comparing treatment and placebo groups
+
+### Datasets Used
+- **employees.xls**: 100 employee records with salary and demographic data
+- **anorexia.txt**: Pre and post-therapy weight measurements (29 patients)
+- **seattle.txt**: Real estate prices in 2001 vs 2002 (100 properties)
+- **methylphenidate.txt**: ADHD treatment data (24 patients, drug vs placebo)
+
+### Technologies Used
+- **Statistical Testing**: scipy.stats (kstest, shapiro, wilcoxon, mannwhitneyu)
+- **Bootstrap Methods**: Custom resampling functions, numpy for random sampling
+- **Data Processing**: pandas for data manipulation and analysis
+- **Visualization**: matplotlib, seaborn for Q-Q plots and histograms
+- **Non-parametric Statistics**: statsmodels.stats.descriptivestats for sign tests
